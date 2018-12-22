@@ -1,0 +1,28 @@
+* {
+  font-family: "Playfair Display", serif, sans-serif;
+}
+.header {
+  padding: 20px 0 0 0;
+  margin: 0 0 50px 0;
+}
+
+.nav-list {
+  text-align: center;
+}
+
+.list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: green;
+}
+.nav-link:hover {
+  background: rgb(255, 230, 0);
+  color: red;
+}
+
+
