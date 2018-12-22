@@ -1,0 +1,19 @@
+* {
+  font-family: "Playfair Display", serif, sans-serif;
+}
+
+.wrapper {
+  width: 920px;
+}
+.colon1 {
+  padding: 0 10 0 0;
+}
+.colon2 {
+  padding: 0 0 0 10px;
+}
+.colon1,
+.colon2 {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 390px;
+}
