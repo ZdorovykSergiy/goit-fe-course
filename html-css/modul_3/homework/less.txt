@@ -1,0 +1,31 @@
+- Работа с текстом, основные CSS-свойства и их значения. 
+- Подключение внешних шрифтов через Google Fonts. Свойство font-family.
+- Работа с фоновыми изображениями, масштабируемый полностраничный фон.
+- Контентные (img) vs оформительные (background-img) изображения.
+
+
+#01bcc6 - header
+#d5d1ca - section1
+#005b7c - footer
+
+
+- Ставим статьям картинки (width="390" height="217")
+- Подключаем шрифт (показываем наследование) (https://fonts.google.com/)
+- Всем заголовкам делаем другой шрифт
+- делаем фон по секциям (4 обертки header, footer, section1 - color, section2 - img)
+- section2 делаем полупрозрачный темный фон
+- верстаем ссылку как кнопку, показываем выравнивание с line-height
+
+
+ /* краткая запись */
+   background: #ccf url("https://images.pexels.com/photos/724712/pexels-photo-724712.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb") no-repeat center center fixed;
+   
+   background-size: cover; or contain
+
+   /* полная запись */
+   /* background-color: #ccf;*/
+   /* background-image: url(bg5.jpg); */
+   /* background-repeat: no-repeat; */
+   /* background-position: center center;*/
+   /* background-attachment: fixed;*/
+     
