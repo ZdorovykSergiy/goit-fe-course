@@ -15,8 +15,7 @@ body {
 }
 
 .header {
-  padding: 20px 0 0 0;
-  margin-bottom: 50px;
+  padding: 20px 0 50px 0;
 }
 
 main {
@@ -30,12 +29,14 @@ main {
 .list-item {
   list-style: none;
   display: inline-block;
-  margin: 0 120px 0 0;
+  margin: 0 80px 0 0;
 }
 
 .nav-link {
   text-transform: uppercase;
   color: #626262;
+  text-decoration: none;
+  font-size: 14px;
 }
 .nav-link:hover {
   color: #03a9f4;
@@ -64,20 +65,22 @@ main {
 
 .news-article__item-r {
   /* margin-right: calc(900px - 400px * 2 - 8px); */
-  margin-right: 100px;
+  margin-right: 60px;
 }
 
 .article-title {
-  font-size: 24px;
+  font-size: 26px;
+  padding: 0 0 40px 0;
 }
 
 .article-text {
   margin: 0 0 15px 0;
+  font-size: 14px;
 }
 
 .more-link {
   color: #626262;
-  margin: 0 50% 0 50%;
+  margin: 0 60% 0 40%;
   text-decoration: none;
   font-size: 24px;
   display: inline-block;
@@ -91,6 +94,8 @@ main {
 .bigtext {
   text-transform: uppercase;
   font-family: "Ubuntu", sans-serif;
+  padding: 30px 0 30px 0;
+  font-size: 14px;
 }
 
 .sublist-item {
