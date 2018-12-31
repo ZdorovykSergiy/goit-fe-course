@@ -5,14 +5,14 @@
 }
 
 body {
-  font-family: "Roboto", serif, sans-serif;
+  font-family: "Playfair Display", serif, sans-serif;
+  color: #626262;
 }
 
 .container {
   width: 900px;
   margin: 0 auto;
 }
-
 
 .header {
   padding: 20px 0 0 0;
@@ -35,12 +35,11 @@ main {
 
 .nav-link {
   text-transform: uppercase;
+  color: #626262;
 }
 .nav-link:hover {
-  color: #06c7e9;
+  color: #03a9f4;
 }
-
-
 
 .news {
   margin-bottom: 70px;
@@ -69,7 +68,6 @@ main {
 }
 
 .article-title {
-  
   font-size: 24px;
 }
 
@@ -78,8 +76,8 @@ main {
 }
 
 .more-link {
-  margin:0 50% 0 50%;
-  color: rgb(8, 8, 8);
+  color: #626262;
+  margin: 0 50% 0 50%;
   text-decoration: none;
   font-size: 24px;
   display: inline-block;
@@ -88,18 +86,14 @@ main {
   height: 50px;
   line-height: 50px;
   border: 1px solid rgb(8, 8, 8);
-
 }
 
-.bigtext{
+.bigtext {
   text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
 }
-
-
 
 .sublist-item {
   list-style: none;
   margin: 0 0 15px 0;
 }
-
-
