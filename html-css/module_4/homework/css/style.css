@@ -136,11 +136,14 @@ header a:hover {
 }
 
 .gallery-list-item p {
+  font-family: "Roboto", sans-serif;
   background-color: #8c8c8c;
   float: right;
   width: 28px;
   padding: 12px;
   font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .gallery-list-item:hover h3 {
