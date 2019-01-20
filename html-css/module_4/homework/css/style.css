@@ -124,7 +124,7 @@ header a:hover {
 }
 
 .gallery-list-item h3 {
-  background-color: #323232;
+  background-color: rgb(50, 50, 50);
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
@@ -137,7 +137,7 @@ header a:hover {
 
 .gallery-list-item p {
   font-family: "Roboto", sans-serif;
-  background-color: #9b9b9b;
+  background-color: rgba(50, 50, 50, 0.7);
   float: right;
   width: 28px;
   padding: 12px;
