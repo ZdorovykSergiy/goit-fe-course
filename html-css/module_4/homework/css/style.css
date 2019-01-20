@@ -122,8 +122,11 @@ header a:hover {
 .rotate img {
   transform: rotate(65deg);
 }
+.price {
+  background-color: rgb(50, 50, 50);
+}
 
-.gallery-list-item h3 {
+.price h3 {
   background-color: rgb(50, 50, 50);
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -135,9 +138,9 @@ header a:hover {
   padding: 12px;
 }
 
-.gallery-list-item p {
+.price p {
   font-family: "Roboto", sans-serif;
-  background-color: rgba(50, 50, 50, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
   float: right;
   width: 28px;
   padding: 12px;
