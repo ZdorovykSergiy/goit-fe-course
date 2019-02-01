@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 125px;
+  justify-content: space-between;
+}
+
+.logo,
+.navlist-item-link {
+  color: rgb(149, 225, 211);
+  font-weight: bold;
+}
+.navlist-item-link:hover,
+.logo:hover {
+  color: rgb(243, 129, 129);
+}
+
+.navlist-item-link:hover::after {
+  display: inline-block;
+  border-bottom: 3px solid rgb(243, 129, 129);
+  width: 100%;
+  content: " ";
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  min-width: 490px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.header-section {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  color: rgb(51, 51, 51);
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0 0 24px 0;
+}
+
+.header-section2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  padding-bottom: 110px;
+}
+
+.header-section2::after {
+  display: block;
+  border-bottom: 3px solid #f38181;
+  width: 60px;
+  content: " ";
+  margin: 0 auto;
+  padding-top: 42px;
+}
+
+.service {
+  width: 1200px;
+}
+
+.service-list {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.service-list-item {
+  flex: 0 0 348px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  margin: 0 29px 0 0;
+}
+
+.text > h3 {
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.text > p {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+}
+
+.team-text {
+  margin: 0 auto;
+  width: 980px;
+  padding: 0 0 95px 0;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+  text-align: center;
+}
+/*team-list*/
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  min-height: 622px;
+  min-width: 1200px;
+  font-size: 15px;
+}
+
+.team-list-item {
+  position: relative;
+  width: 380px;
+}
+
+.team-list-item:hover .team-list-image {
+  position: absolute;
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px rgb(149, 225, 211);
+  transition: box-shadow 200ms linear;
+}
+
+.team-list-image::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, rgb(252, 227, 138, 0.5), #f38181);
+  transition-property: color, opacity, background-image, top, left;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  opacity: 0;
+  z-index: 2;
+}
+
+.team-list-image:hover::after {
+  opacity: 1;
+}
+
+.team-list-item:hover .social-list {
+  opacity: 1;
+  z-index: 3;
+}
+
+.team-list-item:first-child {
+  margin-left: 2px;
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.team-list-name {
+  margin: 0;
+  padding: 0;
+  margin-top: 497px;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  font-family: "Montserrat", "Arial", sans-serif;
+  text-align: center;
+}
+
+.team-list-occupation {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  color: #999999;
+}
+
+/* SOCIAL ICONS */
+.social-list {
+  position: absolute;
+  top: 206px;
+  left: 78px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 200ms linear;
+}
+
+.social-list a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  background-color: rgb(252, 227, 138);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: background-color 200ms linear;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 1px;
+}
+
+.icon-facebook {
+  background-image: url(../img/facebook.png);
+}
+
+.icon-instagram {
+  background-image: url(../img/instagram.png);
+}
+
+.icon-twitter {
+  background-image: url(../img/twitter.png);
+}
+
+.icon-pinterest {
+  background-image: url(../img/pinterest.png);
+}
+
+.social-list a:hover {
+  background-color: #95e1d3;
+}
+/*footer*/
+.footer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer p {
+  margin: 0;
+  margin-top: 23px;
+  padding: 0;
+  padding-left: 2px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.footer-link {
+  color: #f38181;
+}
+.submit {
+  margin: 0;
+  margin-bottom: 13px;
+  padding: 0;
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: rgb(149, 225, 211);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  font-family: "Montserrat", "Arial", sans-serif;
+  cursor: pointer;
+}
+
+input {
+  margin: 0;
+  margin-top: 11px;
+  padding: 0;
+  width: 223px;
+  height: 40px;
+  border: 1px solid rgb(231, 231, 231);
+  font-weight: 300;
+  font-style: italic;
+  text-transform: capitalize;
+  color: #cccccc;
+}
+
+input::placeholder {
+  padding-left: 10px;
+}
+/* visually-hidden helper */
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
