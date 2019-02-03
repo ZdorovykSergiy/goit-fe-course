@@ -1,0 +1,47 @@
+@import "./fonts.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 940px;
+}
+.header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin: 0;
+  padding: 0;
+}
+.logo-link {
+  font-family: "Wisdom", sans-serif;
+  color: rgb(254, 209, 54);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 485px;
+}
+.nav-list-item-link {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+}

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-BlackItalic.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Wisdom";
+  src: url("../fonts/thirsty-script-extrabold-demo/ThirstyScriptExtraBoldDemo.otf")
+    format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
