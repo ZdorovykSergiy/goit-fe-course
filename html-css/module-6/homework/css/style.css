@@ -28,21 +28,25 @@ a {
 li {
   list-style: none;
 }
-
+.logo {
+  margin: 0;
+}
 header {
   display: flex;
-  margin-top: 40px;
+  padding-top: 40px;
   margin-bottom: 125px;
   justify-content: space-between;
+  align-content: flex-end;
 }
 
-.logo,
+.logo-link,
 .navlist-item-link {
   color: rgb(149, 225, 211);
   font-weight: bold;
+  text-transform: uppercase;
 }
 .navlist-item-link:hover,
-.logo:hover {
+.logo-link:hover {
   color: rgb(243, 129, 129);
 }
 
@@ -140,8 +144,6 @@ header {
 .team-list {
   display: flex;
   justify-content: space-between;
-  min-height: 622px;
-  min-width: 1200px;
   font-size: 15px;
 }
 
@@ -180,10 +182,6 @@ header {
 .team-list-item:hover .social-list {
   opacity: 1;
   z-index: 3;
-}
-
-.team-list-item:first-child {
-  margin-left: 2px;
 }
 
 .team-list-item:not(:last-child) {
@@ -318,7 +316,7 @@ input {
   font-weight: 300;
   font-style: italic;
   text-transform: capitalize;
-  color: #cccccc;
+  color: black;
 }
 
 input::placeholder {
