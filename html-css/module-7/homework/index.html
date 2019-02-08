@@ -10,68 +10,144 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header class="header">
-        <h1 class="logo"><a href="#" class="logo-link">Golden</a></h1>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-list-item">
-              <a href="#" class="nav-list-item-link"> home</a>
-            </li>
-            <li class="nav-list-item">
-              <a href="#" class="nav-list-item-link">services</a>
-            </li>
-            <li class="nav-list-item">
-              <a href="#" class="nav-list-item-link">Portfolio</a>
-            </li>
-            <li class="nav-list-item">
-              <a href="#" class="nav-list-item-link">About</a>
-            </li>
-            <li class="nav-list-item">
-              <a href="#" class="nav-list-item-link">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <section class="section service">
-          <h2 class="section-h2">services</h2>
-          <p class="section-p">Proin iaculis purus consequat sem cure.</p>
-          <ul class="service">
-            <li class="service-list">
-              <img src="./img/Icon-Basket.png" alt="E-Commerce" />
-              <span class="header-list">E-Commerce</span>
-              <p class="text-list">
-                Proin iaculis purus consequat sem cure digni ssim. Donec
-                porttitora entum suscipit aenean rhoncus posuere odio in
-                tincidunt.
-              </p>
-            </li>
-            <li class="service-list">
-              <img src="./img/Icon-Laptop.png" alt="Responsive Web" />
-              <span class="header-list">Responsive Web</span>
-              <p class="text-list">
-                Proin iaculis purus consequat sem cure digni ssim. Donec
-                porttitora entum suscipit aenean rhoncus posuere odio in
-                tincidunt.
-              </p>
-            </li>
-            <li class="service-list">
-              <img src="./img/Icon-Locked.png" alt="Web Security" />
-              <span class="header-list">Web Security</span>
-              <p class="text-list">
-                Proin iaculis purus consequat sem cure digni ssim. Donec
-                porttitora entum suscipit aenean rhoncus posuere odio in
-                tincidunt.
-              </p>
-            </li>
-          </ul>
-        </section>
-        <section class="section contacts">
-          <h2 class="section-h2">services</h2>
-          <p class="section-p">Proin iaculis purus consequat sem cure.</p>
-        </section>
-      </main>
-    </div>
+    <header class="header wrapper">
+      <h1 class="logo"><a href="#" class="logo-link">Golden</a></h1>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="#" class="nav-list-item-link"> home</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#" class="nav-list-item-link">services</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#" class="nav-list-item-link">Portfolio</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#" class="nav-list-item-link">About</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#" class="nav-list-item-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section service1 wrapper">
+        <h2 class="section-h2">services</h2>
+        <p class="section-p">Proin iaculis purus consequat sem cure.</p>
+        <ul class="service">
+          <li class="service-list">
+            <img
+              src="./img/Icon-Basket.png"
+              alt="E-Commerce"
+              class="img"
+              width="70px"
+              height="70px"
+            />
+
+            <p class="header-list">E-Commerce</p>
+            <p class="text-list">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="service-list">
+            <img
+              src="./img/Icon-Laptop.png"
+              alt="Responsive Web"
+              class="img"
+              width="70px"
+              height="70px"
+            />
+
+            <p class="header-list">Responsive Web</p>
+            <p class="text-list">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="service-list 1">
+            <img
+              src="./img/Icon-Locked.png"
+              alt="Web Security"
+              class="img"
+              width="70px"
+              height="70px"
+            />
+
+            <p class="header-list">Web Security</p>
+            <p class="text-list">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="section contacts">
+        <div class="container">
+          <h2 class="section-h2 contacts1">services</h2>
+          <p class="section-p contacts2">
+            Proin iaculis purus consequat sem cure.
+          </p>
+          <form action="#" method="get" class="contactus-form">
+            <ul class="contactus-list">
+              <li class="form-input">
+                <ul class="contactus-input-list">
+                  <li class="contactus-input-item">
+                    <input
+                      type="text"
+                      class="input-name"
+                      placeholder="your Name *"
+                      name="user_name"
+                      required
+                      autocomplete="off"
+                      id="user-name"
+                    />
+                  </li>
+                  <li class="contactus-input-item">
+                    <input
+                      type="email"
+                      class="input-email"
+                      placeholder="your e-mail *"
+                      name="user_email"
+                      required
+                      autocomplete="off"
+                      id="user-email"
+                    />
+                  </li>
+                  <li class="contactus-input-item">
+                    <input
+                      type="text"
+                      class="input-subject"
+                      placeholder="subject"
+                      name="message_subject"
+                      autocomplete="off"
+                      id="user-subject"
+                    />
+                  </li>
+                </ul>
+              </li>
+              <li class="form-input">
+                <textarea
+                  name="user_description"
+                  placeholder="Your message *"
+                  required
+                  id="user-message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </li>
+            </ul>
+            <button class="contactus-button" type="submit">
+              send message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

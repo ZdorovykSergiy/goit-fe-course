@@ -1,14 +1,32 @@
 @font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-BlackItalic.ttf") format("ttf");
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Wisdom";
-  src: url("../fonts/thirsty-script-extrabold-demo/ThirstyScriptExtraBoldDemo.otf")
-    format("otf");
+  src: url("../fonts/Wisdom\ Script\ AJ.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "droid-serif-italic";
+  src: url("../fonts/droid-serif-italic_[allfont.ru].ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OleoScript";
+  src: url("../fonts/Oleo_Script/OleoScript-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-BoldItalic";
+  src: url("../fonts/Montserrat/Montserrat-BoldItalic.ttf");
   font-weight: normal;
   font-style: normal;
 }

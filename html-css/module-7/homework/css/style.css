@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 
 *::before,
@@ -21,16 +20,20 @@ a {
 .wrapper {
   margin: 0 auto;
   width: 940px;
+  font-family: "Montserrat-Bold", sans-serif;
 }
 .header {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 128px;
 }
 .logo {
   margin: 0;
   padding: 0;
 }
+
 .logo-link {
   font-family: "Wisdom", sans-serif;
   color: rgb(254, 209, 54);
@@ -43,5 +46,193 @@ a {
 }
 .nav-list-item-link {
   text-transform: uppercase;
-  font-family: "Montserrat";
+  font-family: "Montserrat-Bold";
+  color: black;
+  font-size: 14px;
+}
+
+.nav-list-item-link:hover,
+.nav-list-item-link:focus {
+  color: rgb(254, 209, 54);
+}
+
+.section-h2,
+.section-p {
+  text-align: center;
+}
+
+.section-h2 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-size: 40px;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+}
+
+.section-p {
+  font-family: "droid-serif-italic", sans-serif;
+}
+
+.header-list {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+.section-p,
+.text-list {
+  color: rgb(119, 119, 119);
+}
+.service {
+  display: flex;
+  margin-top: 80px;
+}
+.img {
+  margin: 0 auto;
+  display: block;
+}
+
+.service-list {
+  width: 290px;
+  margin-left: 35px;
+}
+.service-list :last-child {
+  margin-left: 0;
+}
+.header-list,
+.text-list {
+  text-align: center;
+}
+
+.header-list {
+  padding: 25px 0 17px 0;
+}
+.text-list {
+  font-size: 14px;
+  padding-bottom: 120px;
+}
+.contacts {
+  background-color: rgb(34, 34, 34);
+  background-image: url(../img/Map_Image.png);
+  background-position: 109% 85%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.contacts1 {
+  color: white;
+  padding-top: 110px;
+}
+.contacts2 {
+  padding-bottom: 75px;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.contactus-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 452px;
+  height: 48px;
+  border: solid 1px rgb(204, 204, 204);
+  border-radius: 2px;
+}
+
+.contactus-input-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.contactus-input-item:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 452px;
+  height: 206px;
+  resize: none;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+}
+
+.contactus-list,
+.contactus-input-list {
+  font-size: 14px;
+}
+
+input,
+textarea,
+.contactus-form input::placeholder,
+.contactus-form textarea::placeholder {
+  text-transform: uppercase;
+  font-family: "Montserrat", arial, "sans serif";
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(187, 187, 187);
+  letter-spacing: -0.55px;
+}
+
+.contactus-form input::placeholder {
+  transform: translate(4%, -1.5%);
+}
+
+.contactus-form textarea::placeholder {
+  padding-left: 20px;
+  padding-top: 12px;
+}
+
+.contactus-form input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+.input-email[type="email"]:valid,
+.input-name[type="text"]:valid,
+textarea:valid {
+  border-color: green;
+}
+
+.input-email[type="email"]:invalid,
+.input-name[type="text"]:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+.contactus-button {
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 115px;
+  padding: 0;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(254, 209, 54);
+  width: 240px;
+  height: 64px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", "roboto", arial, "sans serif";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translatex(146%);
+}
+
+/* visually-hidden helper */
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
