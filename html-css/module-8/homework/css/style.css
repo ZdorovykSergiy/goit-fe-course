@@ -173,6 +173,14 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  .button {
+    width: 193px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .name-function {
+    max-width: 200px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .registration-list {
@@ -191,15 +199,6 @@ img {
     width: 492px;
     margin: 0 auto;
   }
-
-  .name-function {
-    max-width: 200px;
-  }
-  .button {
-    width: 193px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-  }
 }
 
 @media screen and (min-width: 940px) {
@@ -209,5 +208,6 @@ img {
   }
   main {
     width: 940px;
+    margin: 0 auto;
   }
 }
