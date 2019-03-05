@@ -36,6 +36,9 @@ a {
   text-align: center;
   margin: 0;
 }
+.nav {
+  margin: 0 auto;
+}
 .logo-link,
 .registration-link2 {
   font-family: "Montserrat-Bold";
