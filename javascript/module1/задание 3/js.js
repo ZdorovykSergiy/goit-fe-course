@@ -11,7 +11,7 @@ if (country === null) {
   alert('Вы отменили доставку');
 } else {
   switch (country) {
-    case 'сhina':
+    case 'китай':
       alert(`Доставка в ${country} будет стоить ${China} кредитов`);
       break;
     case 'южная америка':
